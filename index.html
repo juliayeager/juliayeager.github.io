@@ -4,11 +4,292 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOTSTRAP</title>
+    <title>Happy Thought Farm</title>
+        <!-- Bootstrap v5.1.3 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ftk0yqz.css">
+        <link rel="stylesheet" href="https://use.typekit.net/wzu4faf.css">
+
+    <style>
+
+            .container {
+            display: grid;
+            margin:0 auto;
+            max-width: 1500px;
+            grid-template-columns:repeat(12, 1fr); 
+
+            }
+            nav{
+            grid-column: 1/13;
+            display:flex;
+            justify-content: space-around;
+            
+
+            }
+            section{
+            grid-column: 1/13;
+            background-size: cover;
+
+            }
+
+            .panel2{
+            display:grid;
+            grid-column: 1/3;
+            padding: 10px;
+            background-color: rgb(232, 232, 212);
+            background-size: cover;
+            }
+
+                .panel2-one{
+                grid-column: 1/2;
+                padding-top: 70px;
+                padding-left: 60px;
+                padding-right: 60px;
+                text-align: center;
+
+                }
+                .panel2-two{
+                    grid-column: 2/3;
+                    padding: 50px;
+                }
+
+                .panel3{
+                display:grid;
+                grid-column: 1/13;
+                padding: 15px;
+                background-color: #ffffff;
+                background-size: cover;
+                max-width: fit-content;
+                }
+                .panel3-header{
+                    grid-column: 1/13;
+                    padding-left: 250px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+
+                .panel3-one{
+                    grid-column: 1/4;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                }
+                    
+                .panel3-two{
+                    grid-column: 4/7;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                       
+                }
+                .panel3-three{
+                    grid-column: 7/10;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                }
+                .panel3-four{
+                    grid-column: 10/13;
+                }
+
+                .panel3-five{
+                    grid-column: 1/4;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                }
+
+                .panel3-six{
+                    grid-column: 4/7;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                }
+
+                .panel3-seven{
+                    grid-column: 7/10;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                }
+
+                .panel3-eight{
+                    grid-column: 10/13;
+
+                }
+                .panel4{
+                    grid-column: 1/13;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    background-color: rgb(232, 232, 212);
+                    background-size: cover;
+                    text-align: center;
+
+                }
+                .panel5{
+                    grid-column: 1/13;
+                }
+
+                footer {
+                    grid-column: 1/13;
+                    display:flex;
+                    justify-content:space-around;
+                    padding-top: 70px;
+                    padding-bottom: 20px;
+                    background-color: rgb(232, 232, 212);
+                }
+
+                .footer-one{
+                    grid-column: 1/2;
+                    padding-left: 150px;
+                    
+                }
+                .footer-two{
+                    grid-column: 2/3;
+                    
+                }
+                .footer.three{
+                    grid-column: 3/4;
+                    
+                }
+                .footer-four{
+                    grid-column: 4/5;
+                    padding-right: 150px;
+                
+                }
+                .closing{
+                    grid-column: 1/13;
+                    display:flex;
+                    justify-content:space-around;
+                    background-color:rgb(232, 232, 212);
+                }
+    
+    </style>
 </head>
 <body>
-    This is a placeholder page for the "Embed P5.js" assignment. 
-    <img src="images/gihubpage.png" alt="screenshot">
     
+    <div class="container">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="images/logosmall.png" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><h2>HOME</h2></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><h2>ABOUT</h2></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="goats.html"><h2>GOATS</h2></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sale.html"><h2>SALE TERMS</h2></a>
+                  </li>
+               
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><h2>CONTACT</h2></a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <section>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/farmbanner.png" class="d-block w-100" alt="barn">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/babygoats.jpg" class="d-block w-100" alt="babygoats">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/prettygoats.jpg" class="d-block w-100" alt="feeding">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <div class="centered"><h1>Happy Thought Farm</h1></div>
+            <div class="subhead"><h3>Registered Toggenburg Dairy Goats in Brighton, Michigan</h3></div>
+        </section>
+    </div>
+
+    
+        <div class="panel2">
+            <div class="panel2-one" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200"> <h4> Our Story</h4>
+                <p> Happy Thought Farm is family owned and operated in Brighton, Michigan. The Frank Family Team been raising Registered Dairy Goats since 2009. Named after Sue's childhood Horse, Happy Thought, Sue, her husband, Bill, and thier daughter, Sarah, began Happy Thought Farm. Animals have always been a passion</p>
+
+                <a class="btn btn-primary" href="about.html" role="button">About Us</a>
+            </div>
+
+            <div class="panel2-two" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">   <img src="images/grouppic.jpg" alt="family picture"></div>
+        </div>
+
+       <div class="panel3">
+        <div class="panel3-header"> <a href="goats.html"><h4> Our Goats</h4></a></div>
+        <div class="panel3-one"> <img src="images/yearlings.webp" alt="Yearlings"> <h2>Yearlings</h2></div>
+        <div class="panel3-two"><img src="images/2Y0.webp" alt="2Years"><h2>2Year</h2></div>
+        <div class="panel3-three"> <img src="images/4Y0.jpg" alt="4years"><h2>4Year</h2></div>
+        <div class="panel3-four"><img src="images/7YO.jpg" alt="7years"><h2>7Year</h2></div>
+        <div class="panel3-five"><img src="images/8Y0.webp" alt="8years"><h2>8Year</h2></div>
+        <div class="panel3-six"><img src="images/agedmilkers.jpg" alt="agedmilkers"><h2>Milkers_</h2></div>
+        <div class="panel3-seven"><img src="images/reference.webp" alt="does"><h2>Ref.Does</h2></div>
+        <div class="panel3-eight"><img src="images/Bucks.webp" alt="bucks"><h2>Ref.Bucks</h2></div>
+        </div>
+
+        
+    
+
+    <div class="panel4">
+        <h5>Proud Member of The American Dairy Goat Association (ADGA PLUS Program Member)</h5>
+    </div>
+
+    <div class="panel5">
+        <img src="images/awards.png" alt="awards">
+    </div>
+
+    <footer>
+        <div class="footer-one"> 
+            <h5>HELP</h5>
+            <a href= "sale.html"><p>ORDERS</p></a>
+            <a href= "sale.html"><p>PAYMENTS</p></a>
+        </div>
+            
+  
+        <div class="footer-two">
+            <a href= "about.html"><h5>ABOUT</h5></a>
+            <a href= "about.html"><p>OUR STORY</p></a>
+        </div>
+  
+        <div class="footer-four"> 
+            <a href= "contact.html"><h5>CONTACT</h5></a>
+            <p> (804) 397-0745</p>
+        </div>
+            
+    </footer>
+
+<div class="closing">
+    <h2>    Happy Thought Farm    |  Copyright © 2022 </h2>
+</div>
+
+
+
+
 </body>
 </html>
