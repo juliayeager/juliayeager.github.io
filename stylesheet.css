@@ -4,7 +4,7 @@ h1{
     font-family: 'helvetica', serif;
     font-weight: 900;
     color: #C9E265;
-    font-size: 3.5em;
+    font-size: 3em;
     padding-top: .5em;
 }
 h2{
@@ -16,7 +16,7 @@ h2{
 }
 h3{
     font-family: 'helvetica', serif;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     font-size: 1em;
 
